@@ -1,0 +1,6 @@
+@RESTex_HostAddress = http://localhost:5042
+
+GET {{RESTex_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MockShop.API/MockShop.API.csproj" Id="5174a977-88db-4bfc-a314-2e477f359a81" />
+  <Project Path="MockShop.Application/MockShop.Application.csproj" Id="98120db5-7965-4c8b-b54b-21ba04186138" />
+  <Project Path="MockShop.BackgroundWorker/MockShop.BackgroundWorker.csproj" Id="7bf5b62f-8f4f-4b62-8c7b-6d5e05d42923" />
+  <Project Path="MockShop.Domain/MockShop.Domain.csproj" Id="6792ab58-36d2-4a4e-8d3d-c1697c1ef36d" />
+  <Project Path="MockShop.Infrastructure/MockShop.Infrastructure.csproj" Id="386f8442-198b-4fba-a086-44cffb1e8c26" />
+</Solution>

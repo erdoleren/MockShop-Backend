@@ -1,0 +1,20 @@
+﻿@HostAddress = http://localhost:5003
+
+POST {{HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "eren@work.com",
+  "password": "12345"
+}
+
+POST {{HostAddress}}/api/orders
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "cardNumber": "123456",
+  "items": [
+    { "productId": 1, "quantity": 1, "unitPrice": 25000 }
+  ]
+}
