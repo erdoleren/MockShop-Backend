@@ -77,7 +77,7 @@ dotnet run --project MockShop.BackgroundWorker
 ```
 ## 🧪 TESTING THE API
 * Go to Swagger UI: http://localhost:5003/swagger
-* Login: Use the /api/Auth/login endpoint to get a JWT Token (Default user: mert@work.com / 12345).
+* Login: Use the /api/Auth/login endpoint to get a JWT Token (Default user: eren@work.com / 12345).
 * Authorize: Click the lock icon and enter the token (e.g., eyJhbG...).
 * Create Order: POST a request to /api/Orders.
 * Observe: Check the Worker Console logs to see the RabbitMQ message consumption and database update.
