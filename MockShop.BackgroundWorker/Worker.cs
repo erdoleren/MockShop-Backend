@@ -68,7 +68,7 @@ namespace MockShop.BackgroundWorker
             return Task.CompletedTask;
         }
 
-        // Dispose manually
+        // Dispose override to close RabbitMQ connection
         public override void Dispose()
         {
             _channel.Close();

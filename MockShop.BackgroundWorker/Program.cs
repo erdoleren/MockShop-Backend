@@ -14,7 +14,7 @@ IHost host = Host.CreateDefaultBuilder(args)
 
         services.AddScoped<IOrderRepository, OrderRepository>();
 
-        // Bizim i?çi s?n?f?m?z
+        // Worker service registration
         services.AddHostedService<Worker>();
     })
     .Build();
